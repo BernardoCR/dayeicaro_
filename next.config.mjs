@@ -9,10 +9,11 @@
 const config = {
   reactStrictMode: true,
   swcMinify: true,
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
+  output: "export",
+//  i18n: {
+//    locales: ["en"],
+  //  defaultLocale: "en",
+  //},
   webpack: (config) => {
     /** @type {import("webpack").RuleSetRule[] } */
     const configRules = config.module.rules;

@@ -53,12 +53,12 @@ function GiftList(): JSX.Element {
       <Minicart />
       <div className="space-y-16 border-t border-joanGreen-600 py-10 text-joanGreen-600 selection:bg-joanGreen-600 selection:text-white md:px-8 lg:p-20">
         <div className="m-auto max-w-2xl space-y-2 px-8 text-center">
-          <div className="font-serif text-4xl">Dê seu presente</div>
+          <div className="font-serif text-4xl">Day e Ícaro agradecem pelo carinho!</div>
           <div>
             Clique para selecionar o(s) presente(s) que você quer nos dar. Ao
             final você pode pagar com Pix ou cartão. Vamos agradecer demais sua
             escolha! Qualquer dificuldade, é só falar com a gente que te
-            ajudamos.
+            ajudamos. Obrigado, de coração!
           </div>
         </div>
         <div className="grid grid-cols-1 pt-[1px] pr-[1px] md:grid-cols-[repeat(auto-fill,_minmax(19rem,_1fr))]">
