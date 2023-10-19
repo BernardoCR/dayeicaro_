@@ -121,10 +121,10 @@ type PixQRCode = (
 const getPixQRCode: PixQRCode = async (amount) => {
   const pixQRCode = PixQRCode({
     version: "01",
-    key: "08974515628",
-    name: "João Paulo Barros Cotta Pesce",
-    city: "BELO HORIZONTE",
-    message: "Presente de casamento Chandra & João",
+    key: "dayufsc@gmail.com",
+    name: "Dayane Azevedo Padilha",
+    city: "Florianópolis",
+    message: "Presente de casamento",
     value: amount,
   });
   const base64Image = await pixQRCode.base64();
